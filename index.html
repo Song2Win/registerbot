@@ -320,23 +320,22 @@
                                 }
                             ]
                         },
-                        "footer": {
-                            "type": "box",
-                            "layout": "vertical",
-                            "contents": [
-                                {
-                                    "type": "button",
-                                    "action": {
-                                        "type": "uri",
-                                        "label": "🌐 เยี่ยมชมเว็บไซต์",
-                                        "uri": "https://line.me/"
-                                    },
-                                    "style": "primary",
-                                    "color": "#4EA72E",
-                                    "height": "sm"
-                                }
-                            ]
-                        },
+                        footer: {
+                            type: 'box',
+                            layout: 'vertical',
+                            spacing: 'sm',
+                            contents: [
+                              {
+                                type: 'text',
+                                text: 'นายแพทย์พิเชฐ อกนิษฐาภิชาติ',
+                                size: 'xs',
+                                color: '#FFFFFF',
+                                align: 'center',
+                                margin: 'none'
+                              }
+                            ],
+                            backgroundColor: '#4EA72E'
+                          },
                         "styles": {
                             "body": {
                                 "backgroundColor": "#E4F6DE",
@@ -344,7 +343,6 @@
                                 "separatorColor": "#4EA72E"
                             },
                             "footer": {
-                                "backgroundColor": "#E4F6DE",
                                 "separator": true,
                                 "separatorColor": "#E4F6DE"
                             }
